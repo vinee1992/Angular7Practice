@@ -1,0 +1,6 @@
+<app-app-blog-post-tile
+*ngFor="let p of blogPost[currentPage]"
+ [post]="p" ></app-app-blog-post-tile>
+<app-paginator [numberOfPages]="blogPost.length"></app-paginator>
+
+
